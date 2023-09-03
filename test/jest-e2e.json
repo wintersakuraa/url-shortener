@@ -1,0 +1,16 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "^@/(.*)$": "<rootDir>/../src/$1",
+    "^@models/(.*)$": "<rootDir>/../src/models/$1",
+    "^@configs/(.*)$": "<rootDir>/../src/configs/$1",
+    "^@common/(.*)$": "<rootDir>/../src/common/$1",
+    "^@mocks/(.*)$": "<rootDir>/../mocks/$1"
+  }
+}
