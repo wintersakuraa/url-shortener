@@ -8,7 +8,7 @@ I think we can all agree that there aren't enough URL shorteners in the world, s
 
 ```bash
 # install packages
-$ npm install
+$ pnpm install
 
 # add env variable
 $ mv .env.example .env
@@ -21,30 +21,30 @@ $ docker compose up -d
 
 ```bash
 # development
-$ npm run start
+$ pnpm run start
 
 # watch mode
-$ npm run start:dev
+$ pnpm run start:dev
 
 # production mode
-$ npm run start:prod
+$ pnpm run start:prod
 ```
 
 ## Test
 
 ```bash
 # unit tests
-$ npm run test
+$ pnpm run test
 
 # e2e tests
-$ npm run test:e2e
+$ pnpm run test:e2e
 
 # test coverage
-$ npm run test:cov
+$ pnpm run test:cov
 ```
 
 ## Apply migrations
 
 ```bash
-$ npm run migration:run
+$ pnpm run migration:run
 ```
